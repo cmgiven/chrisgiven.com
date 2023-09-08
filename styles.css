@@ -1,0 +1,34 @@
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+:root {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 20px;
+}
+h2 {
+    font-size: 2em;
+    background: transparent;
+    padding: 5px 10px;
+    outline: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+}
+ul {
+    list-style: decimal;
+    padding: 0 20px;
+}
+ul > li {
+    padding: 5px;
+}
+ul > li > a {
+    text-decoration: none;
+    color: #574AE2;
+}
+ul > li > a:hover {
+    text-decoration: underline;
+    color: #FF1B1C;
+}
